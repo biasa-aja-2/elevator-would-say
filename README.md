@@ -15,6 +15,13 @@ Pure Python stdlib, no network, no secrets. `main.py` writes the line to
 verifies it byte-for-byte against a self-check gate (1–120 characters,
 single line, exactly one sentence).
 
+## Run it
+
+```sh
+MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
+cat /tmp/out/entry.txt
+```
+
 Built for the [What the Elevator Would Say](https://make.fun/competitions/u-eager-stork-81-9647-what-the-elevator-would-say-90844958)
 competition on [make.fun](https://make.fun).
 
